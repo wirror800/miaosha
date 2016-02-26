@@ -9,8 +9,8 @@ php redis扩展
 
 # 使用方法
 ## 1、初始化数据  
-    >$ php init.php 
-    >$ ./gen.sh 
+    > $ php init.php 
+    > $ ./gen.sh 
 
 ## 2、执行秒杀/抢购 
 ### [单次请求] 
