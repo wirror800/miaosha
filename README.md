@@ -8,16 +8,16 @@
 php redis扩展
 
 # 使用方法
-1、初始化数据  
-$ php init.php 
-$ ./gen.sh 
+## 1、初始化数据  
+* php init.php 
+* ./gen.sh 
 
-2、执行秒杀/抢购 
-单次请求 
-$ php run.php 
-模拟并发请求 
-$ ./batch.sh 
+## 2、执行秒杀/抢购 
+### 单次请求 
+* php run.php 
+### 模拟并发请求 
+* ./batch.sh 
 
-3、执行业务逻辑   
-$ php worker.php 
-(这里是从redis队列取出数据，业务逻辑需要自己补充) 
+## 3、执行业务逻辑   
+* php worker.php 
+* (这里是从redis队列取出数据，业务逻辑需要自己补充) 
