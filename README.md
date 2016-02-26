@@ -15,6 +15,7 @@ php redis扩展
 ## 2、执行秒杀/抢购 
 ### 单次请求 
 * php run.php 
+
 ### 模拟并发请求 
 * ./batch.sh 
 
