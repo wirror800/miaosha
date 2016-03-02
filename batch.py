@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # encoding=utf-8
-# Filename: thread-extends-class.py
-# 直接从Thread继承，创建一个新的class，把线程执行的代码放到这个新的 class里
+# Filename: batch.py
+
 import threading
 import datetime
 import time
